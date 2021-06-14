@@ -1,4 +1,5 @@
-
+let touchstartX
+let touchstartY
       document.addEventListener('touchstart', (evt) => {
           touchstartX = evt.changedTouches[0].screenX
           touchstartY = evt.changedTouches[0].screenY;
